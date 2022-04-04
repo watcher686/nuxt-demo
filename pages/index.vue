@@ -358,7 +358,7 @@
 <script>
 export default {
   name: "HomePage",
-  layout: "baseLayout",
+  // layout: "baseLayout",
   async asyncData({ $axios }) {
     const { data } = await $axios.$get("/api/list");
     return { list: data };

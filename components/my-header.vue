@@ -57,31 +57,31 @@ export default {
           path: "/",
           name: "首页",
         },
-        {
-          default: true,
-          path: "/service",
-          name: "服务",
-        },
-        {
-          default: true,
-          path: "/service",
-          name: "产品",
-        },
-        {
-          default: false,
-          path: "https://nuxtjs.org",
-          name: "官网",
-        },
-        {
-          default: true,
-          path: "/merchantsToJoin",
-          name: "招商加盟",
-        },
-        {
-          default: true,
-          path: "/aboutUs",
-          name: "关于我们",
-        },
+        // {
+        //   default: true,
+        //   path: "/service",
+        //   name: "服务",
+        // },
+        // {
+        //   default: true,
+        //   path: "/service",
+        //   name: "产品",
+        // },
+        // {
+        //   default: false,
+        //   path: "https://nuxtjs.org",
+        //   name: "官网",
+        // },
+        // {
+        //   default: true,
+        //   path: "/merchantsToJoin",
+        //   name: "招商加盟",
+        // },
+        // {
+        //   default: true,
+        //   path: "/aboutUs",
+        //   name: "关于我们",
+        // },
       ],
     };
   },
