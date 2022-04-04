@@ -508,6 +508,7 @@ export default {
   position: relative;
   font-size: 30px;
   margin-bottom: 1em;
+  z-index: 2;
 }
 .arrowRight > div:nth-of-type(1) {
   position: absolute;
@@ -515,7 +516,7 @@ export default {
   height: 2.2em;
   right: 0px;
   top: 0;
-  z-index: -1;
+  z-index: 1;
 }
 .arrowLeft > div:nth-of-type(1) {
   position: absolute;
@@ -523,7 +524,7 @@ export default {
   height: 2.2em;
   left: 0px;
   top: 0;
-  z-index: -1;
+  z-index: 1;
 }
 /* 关于我们 */
 .about > p {
@@ -683,7 +684,7 @@ export default {
 @media screen and (max-width: 768px) {
   .main1 {
     width: 90%;
-    padding-top: 80px;
+    padding-top: 200px;
   }
   /* 关于我们 */
   .about > p {
