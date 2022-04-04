@@ -64,7 +64,7 @@ export default {
         },
         {
           default: true,
-          path: "/service6",
+          path: "/service",
           name: "产品",
         },
         {
@@ -79,7 +79,7 @@ export default {
         },
         {
           default: true,
-          path: "/service4",
+          path: "/aboutUs",
           name: "关于我们",
         },
       ],

@@ -269,7 +269,7 @@ S2B2C+O2O双轨模式。
         <img
           class="img-size"
           src="http://qn.yunxuanjia.com/yxjsqd/images/joiningBackgrounds/promise.png"
-          alt=""
+          alt="无高额加盟费，付款，无高运营设备费，无需担心资金安全，无需担心售后"
         />
       </div>
     </div>
@@ -286,7 +286,7 @@ S2B2C+O2O双轨模式。
         <img
           class="img-size"
           src="http://qn.yunxuanjia.com/yxjsqd/images/joiningBackgrounds/zhaoshang_img_tigong1.png"
-          alt=""
+          alt="AI智能整装设计软件"
         />
         <div>
           <div class="Img_title"><span>AI智能整装</span>设计软件</div>
@@ -297,7 +297,7 @@ S2B2C+O2O双轨模式。
         <img
           class="img-size"
           src="http://qn.yunxuanjia.com/yxjsqd/images/joiningBackgrounds/zhaoshang_img_tigon2.png"
-          alt=""
+          alt="效果图，即时预览3D效果"
         />
         <div class="flex justify-end joinImgAb">
           <div>
@@ -310,7 +310,7 @@ S2B2C+O2O双轨模式。
         <img
           class="img-size"
           src="http://qn.yunxuanjia.com/yxjsqd/images/joiningBackgrounds/zhaoshang_img_tigon3.png"
-          alt=""
+          alt="特色图像化"
         />
         <div>
           <div class="Img_title"><span>特色图像化</span>产品推荐系统</div>
@@ -321,7 +321,7 @@ S2B2C+O2O双轨模式。
         <img
           class="img-size"
           src="http://qn.yunxuanjia.com/yxjsqd/images/joiningBackgrounds/zhaoshang_img_tigong4.png"
-          alt=""
+          alt="超大型稳定整装供应链"
         />
         <div class="title_center">
           <div class="Img_title"><span>超大型</span>稳定整装供应链</div>
@@ -443,18 +443,18 @@ export default {
 #module_4 .advantageImg {
   width: 50px;
   height: 50px;
-  padding: 10px 0px;
+  margin: 10px 0px;
 }
 #module_4 .advantageMain {
   box-sizing: border-box;
   background-color: #ff9c00;
-  height: 250px;
+  /* height: 250px; */
   padding: 10px;
 }
 #module_4 .advantageMain2 {
   box-sizing: border-box;
   background-color: #eeeeee;
-  height: 250px;
+  /* height: 250px; */
   padding: 10px;
 }
 #module_4 .advantageTitle {
