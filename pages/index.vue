@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-   ???
-   <!-- <el-carousel id="carousel-pc">
+   <el-carousel id="carousel-pc">
       <el-carousel-item v-for="item in 4" :key="item">
         <img
           class="img-size"
@@ -21,7 +20,7 @@
     </el-carousel>
 
     <div class="main">
-      <!-- 企业简介
+      <!-- 企业简介-->
       <div class="companyProfiles flex modulemargin-top">
         <div class="enterpriseImg">
           <img
@@ -49,7 +48,7 @@
         </div>
       </div>
     </div>
-    <!-- 智能家居
+    <!-- 智能家居-->
     <div class="smartHome">
       <p class="text-center">
         <span class="titleUnderline">智能家居</span>
@@ -84,7 +83,7 @@
       </div>
     </div>
 
-    <!-- 儿童定制
+    <!-- 儿童定制-->
     <div class="childrenSCustom main">
       <p style="margin-bottom: 40px">
         <span class="titleUnderline">儿童定制</span>
@@ -134,7 +133,7 @@
     </div>
 
     <div class="main">
-      <!-- 服务产品
+      <!-- 服务产品-->
       <div class="serviceProduct">
         <p style="margin-bottom: 20px">
           <span class="titleUnderline">服务产品</span>
@@ -200,7 +199,7 @@
       </div>
     </div>
 
-    <!-- 探戈
+    <!-- 探戈-->
     <div class="tango">
       <div class="flex justify-end">
         <div>
@@ -227,7 +226,7 @@
     </div>
 
     <div class="main">
-      <!-- 店铺展示
+      <!-- 店铺展示-->
       <div class="storeDisplay">
         <p class="titleMargin">
           <span class="titleUnderline">店铺展示</span>
@@ -245,7 +244,7 @@
           </el-carousel-item>
         </el-carousel>
       </div>
-      <!-- 新闻资讯
+      <!-- 新闻资讯-->
       <div class="news modulemargin-top">
         <p class="titleMargin">
           <span class="titleUnderline">新闻资讯</span>
@@ -303,7 +302,7 @@
       </div>
     </div>
 
-    <!-- 加盟流程
+    <!-- 加盟流程-->
     <div class="joiningProcess flex align-center">
       <div class="joiningTitle">
         <div class="marginauto">
@@ -342,7 +341,7 @@
     </div>
 
     <div class="main">
-      <!-- 加盟申请
+      <!-- 加盟申请-->
       <div class="joinApplication">
         <p class="titleMargin">
           <span class="titleUnderline">加盟申请</span>
@@ -352,13 +351,13 @@
         </div>
       </div>
     </div>
-    -->
+
   </div>
 </template>
 <script>
 export default {
   name: "HomePage",
-  // layout: "baseLayout",
+  layout: "baseLayout",
   async asyncData({ $axios }) {
     const { data } = await $axios.$get("/api/list");
     return { list: data };
