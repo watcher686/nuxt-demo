@@ -278,3 +278,8 @@ pre {
 .text-italic {
   font-style: italic;
 }
+
+/*间距margin*/
+.margin-tb{
+  margin: 20px 0;
+}

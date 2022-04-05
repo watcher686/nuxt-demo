@@ -2,11 +2,16 @@
   <div id="backtop">
     <div v-show="totop">
       <div>
-        <img
-          src="../static/images/homeBackgrounds/float-icon-kf@3x.png"
-          alt="客服"
-        />
-        <div>客服</div>
+        <el-popover placement="left-start" width="210" trigger="hover">
+          <img src="../static/images/wx.png" alt="微信">
+          <div slot="reference">
+            <img
+              src="../static/images/homeBackgrounds/float-icon-kf@3x.png"
+              alt="客服"
+            />
+            <div>客服</div>
+          </div>
+        </el-popover>
       </div>
       <div @click="backtop">
         <img
@@ -23,6 +28,7 @@ export default {
   data() {
     return {
       totop: false,
+      visible: false,
     };
   },
   mounted() {
@@ -42,6 +48,7 @@ export default {
         this.totop = true;
       } else {
         this.totop = false;
+        this.visible=false;
       }
     },
     //回到顶部 点击回到顶部按钮，让距离逐渐减少，形成上划的效果
@@ -70,11 +77,11 @@ export default {
     text-align: center;
     padding: 5px 20px;
     img {
-      width: 50px;
-      height: 50px;
+      width: 40px;
+      height: 40px;
     }
   }
-  >div > div:nth-of-type(1) {
+  > div > div:nth-of-type(1) {
     position: relative;
     &::after {
       content: "";

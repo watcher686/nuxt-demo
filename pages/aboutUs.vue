@@ -645,7 +645,6 @@ export default {
 }
 .productAdvantages > div > .content {
   width: 75%;
-  height: 70px;
   padding: 10px;
 }
 .productAdvantages > div > .label > img {
@@ -655,7 +654,6 @@ export default {
 }
 .productAdvantages > div > .label > div {
   position: absolute;
-  top: 30px;
   left: 44%;
   font-size: 20px;
 }

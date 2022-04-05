@@ -337,240 +337,242 @@ export default {
   layout: "baseLayout",
 };
 </script>
-<style>
-.banner > img:nth-of-type(2) {
-  display: none;
-}
-.mainTitle {
-  font-size: 35px;
-}
-.mainTitle2 {
-  font-size: 25px;
-}
-.redTitle {
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 10px 0px;
-  font-size: 35px;
-  font-weight: bold;
-  font-style: italic;
-  color: white;
-  background: #ac2e31;
-  border-radius: 50px;
-}
-.joinImg {
-  width: 60%;
-  padding: 20px 0px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-.title {
-  padding: 100px 0px;
-}
-/* 标题2 */
-.title2 {
-  background: url("../static/images/joiningBackgrounds/zhaoshang_bg_wenti.png")
-    no-repeat center;
-  background-size: 100% 100%;
-  height: 400px;
-  color: white;
-}
-.title2 > div {
-  width: 450px;
-  margin: auto;
-}
-#module_2 .joinImg > div {
-  font-size: 23px;
-}
-/* 标题3 */
-.title3 {
-  background: url("../static/images/joiningBackgrounds/zhaoshang_bg_daan.png")
-    no-repeat center;
-  background-size: 100% 100%;
-  height: 800px;
-  color: white;
-}
-.title3 > div {
-  width: 400px;
-  padding: 150px 0px 0px 250px;
-}
-#module_3 > img {
-  display: none;
-}
-.redTitle2 {
-  display: inline-block;
-  width: 100%;
-  padding: 5px 0px;
-  margin: 10px 0px;
-  font-size: 35px;
-  font-weight: bold;
-  font-style: italic;
-  color: white;
-  background: #ac2e31;
-  border-radius: 50px;
-}
-#sharingPlatform > img:nth-of-type(1) {
-  display: block;
-}
-#sharingPlatform > img:nth-of-type(2) {
-  display: none;
-}
-/* 标题4 */
-.title4 .redTitle,
-.title6 .redTitle {
-  margin-left: 10px;
-}
-.title4 .mainTitle2 {
-  margin: 10px 0px;
-}
-#module_4 > .main {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-}
-#module_4 > img:nth-of-type(2) {
-  display: none;
-}
-#module_4 .advantage,
-#module_4 .advantage2 {
-  width: 16%;
-  box-sizing: border-box;
-  border: 1px solid #eeee;
-}
-#module_4 .advantage2 {
-  margin-top: 100px;
-}
-#module_4 .advantageImg {
-  width: 50px;
-  height: 50px;
-  margin: 10px 0px;
-}
-#module_4 .advantageMain {
-  box-sizing: border-box;
-  background-color: #ff9c00;
-  /* height: 250px; */
-  padding: 10px;
-}
-#module_4 .advantageMain2 {
-  box-sizing: border-box;
-  background-color: #eeeeee;
-  /* height: 250px; */
-  padding: 10px;
-}
-#module_4 .advantageTitle {
-  font-size: 18px;
-}
-#module_4 .advantageContent {
-  font-size: 14px;
-}
-#module_4 .advantageNum,
-#module_4 .advantageNum2 {
-  padding: 10px 0px;
-  font-size: 35px;
-}
-#module_4 .advantageNum2 {
-  display: none;
-}
-#module_6 .joinImg > div {
-  padding-left: 20px;
-}
-#module_6 .Img_title {
-  font-size: 20px;
-}
-#module_6 .Img_title > span {
-  font-size: 30px;
-}
-#module_6 .joinImg {
-  position: relative;
-  padding: 20px 0px;
-}
-#module_6 .title_center {
-  text-align: center;
-}
-.joinImgAb {
-  position: absolute;
-  bottom: 150px;
-  right: 50px;
-}
-@media screen and (max-width: 768px) {
-  .banner > img:nth-of-type(1),
-  .title3,
-  #sharingPlatform > img:nth-of-type(1),
-  #module_4 > img:nth-of-type(1),
-  #footer > div {
+<style lang="scss">
+#merchantsToJoin {
+  .banner > img:nth-of-type(2) {
     display: none;
   }
-  .banner > img:nth-of-type(2),
-  #module_3 > img,
-  #sharingPlatform > img:nth-of-type(2),
-  #module_4 > img:nth-of-type(2),
-  #footer > img {
-    display: block;
-  }
   .mainTitle {
-    font-size: 22px;
+    font-size: 35px;
   }
   .mainTitle2 {
-    font-size: 14px;
+    font-size: 25px;
   }
-  .redTitle,
-  .redTitle2 {
-    font-size: 18px;
+  .redTitle {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 10px 0px;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background: #ac2e31;
+    border-radius: 50px;
   }
   .joinImg {
-    width: 90%;
+    width: 60%;
+    padding: 20px 0px;
+    margin: 0 auto;
+    box-sizing: border-box;
   }
   .title {
-    padding: 20px 0px;
+    padding: 100px 0px;
   }
+  /* 标题2 */
   .title2 {
     background: url("../static/images/joiningBackgrounds/zhaoshang_bg_wenti.png")
       no-repeat center;
-    height: 200px;
+    background-size: 100% 100%;
+    height: 400px;
+    color: white;
   }
   .title2 > div {
-    width: 400px;
+    width: 450px;
     margin: auto;
   }
   #module_2 .joinImg > div {
-    font-size: 18px;
+    font-size: 23px;
+  }
+  /* 标题3 */
+  .title3 {
+    background: url("../static/images/joiningBackgrounds/zhaoshang_bg_daan.png")
+      no-repeat center;
+    background-size: 100% 100%;
+    height: 800px;
+    color: white;
+  }
+  .title3 > div {
+    width: 400px;
+    padding: 150px 0px 0px 250px;
+  }
+  #module_3 > img {
+    display: none;
+  }
+  .redTitle2 {
+    display: inline-block;
+    width: 100%;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    background: #ac2e31;
+    border-radius: 50px;
+  }
+  #sharingPlatform > img:nth-of-type(1) {
+    display: block;
+  }
+  #sharingPlatform > img:nth-of-type(2) {
+    display: none;
+  }
+  /* 标题4 */
+  .title4 .redTitle,
+  .title6 .redTitle {
+    margin-left: 10px;
+  }
+  .title4 .mainTitle2 {
+    margin: 10px 0px;
+  }
+  #module_4 > .main {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #module_4 > img:nth-of-type(2) {
+    display: none;
   }
   #module_4 .advantage,
   #module_4 .advantage2 {
-    width: 33%;
+    width: 16%;
     box-sizing: border-box;
     border: 1px solid #eeee;
   }
-  #module_4 > .main > div:nth-of-type(4),
-  #module_4 > .main > div:nth-of-type(6) {
-    margin-top: 0px;
+  #module_4 .advantage2 {
+    margin-top: 100px;
   }
-  #module_4 > .main > div:nth-of-type(4) .advantageImg,
-  #module_4 > .main > div:nth-of-type(5) .advantageImg,
-  #module_4 > .main > div:nth-of-type(6) .advantageImg,
-  #module_4 > .main > div:nth-of-type(4) .advantageNum,
-  #module_4 > .main > div:nth-of-type(5) .advantageNum,
-  #module_4 > .main > div:nth-of-type(6) .advantageNum {
-    display: none;
+  #module_4 .advantageImg {
+    width: 50px;
+    height: 50px;
+    margin: 10px 0px;
   }
-  #module_4 > .main > div:nth-of-type(4) .advantageNum2,
-  #module_4 > .main > div:nth-of-type(5) .advantageNum2,
-  #module_4 > .main > div:nth-of-type(6) .advantageNum2 {
-    display: block;
+  #module_4 .advantageMain {
+    box-sizing: border-box;
+    background-color: #ff9c00;
+    /* height: 250px; */
+    padding: 10px;
   }
-
-  .joinImgAb {
-    position: static;
+  #module_4 .advantageMain2 {
+    box-sizing: border-box;
+    background-color: #eeeeee;
+    /* height: 250px; */
+    padding: 10px;
   }
-
-  #module_6 .title_center {
-    text-align: left;
-  }
-  #module_6 .Img_title {
+  #module_4 .advantageTitle {
     font-size: 18px;
   }
+  #module_4 .advantageContent {
+    font-size: 14px;
+  }
+  #module_4 .advantageNum,
+  #module_4 .advantageNum2 {
+    padding: 10px 0px;
+    font-size: 35px;
+  }
+  #module_4 .advantageNum2 {
+    display: none;
+  }
+  #module_6 .joinImg > div {
+    padding-left: 20px;
+  }
+  #module_6 .Img_title {
+    font-size: 20px;
+  }
   #module_6 .Img_title > span {
-    font-size: 23px;
+    font-size: 30px;
+  }
+  #module_6 .joinImg {
+    position: relative;
+    padding: 20px 0px;
+  }
+  #module_6 .title_center {
+    text-align: center;
+  }
+  .joinImgAb {
+    position: absolute;
+    bottom: 150px;
+    right: 50px;
+  }
+  @media screen and (max-width: 768px) {
+    .banner > img:nth-of-type(1),
+    .title3,
+    #sharingPlatform > img:nth-of-type(1),
+    #module_4 > img:nth-of-type(1),
+    #footer > div {
+      display: none;
+    }
+    .banner > img:nth-of-type(2),
+    #module_3 > img,
+    #sharingPlatform > img:nth-of-type(2),
+    #module_4 > img:nth-of-type(2),
+    #footer > img {
+      display: block;
+    }
+    .mainTitle {
+      font-size: 22px;
+    }
+    .mainTitle2 {
+      font-size: 14px;
+    }
+    .redTitle,
+    .redTitle2 {
+      font-size: 18px;
+    }
+    .joinImg {
+      width: 90%;
+    }
+    .title {
+      padding: 20px 0px;
+    }
+    .title2 {
+      background: url("../static/images/joiningBackgrounds/zhaoshang_bg_wenti.png")
+        no-repeat center;
+      height: 200px;
+    }
+    .title2 > div {
+      width: 400px;
+      margin: auto;
+    }
+    #module_2 .joinImg > div {
+      font-size: 18px;
+    }
+    #module_4 .advantage,
+    #module_4 .advantage2 {
+      width: 33%;
+      box-sizing: border-box;
+      border: 1px solid #eeee;
+    }
+    #module_4 > .main > div:nth-of-type(4),
+    #module_4 > .main > div:nth-of-type(6) {
+      margin-top: 0px;
+    }
+    #module_4 > .main > div:nth-of-type(4) .advantageImg,
+    #module_4 > .main > div:nth-of-type(5) .advantageImg,
+    #module_4 > .main > div:nth-of-type(6) .advantageImg,
+    #module_4 > .main > div:nth-of-type(4) .advantageNum,
+    #module_4 > .main > div:nth-of-type(5) .advantageNum,
+    #module_4 > .main > div:nth-of-type(6) .advantageNum {
+      display: none;
+    }
+    #module_4 > .main > div:nth-of-type(4) .advantageNum2,
+    #module_4 > .main > div:nth-of-type(5) .advantageNum2,
+    #module_4 > .main > div:nth-of-type(6) .advantageNum2 {
+      display: block;
+    }
+
+    .joinImgAb {
+      position: static;
+    }
+
+    #module_6 .title_center {
+      text-align: left;
+    }
+    #module_6 .Img_title {
+      font-size: 18px;
+    }
+    #module_6 .Img_title > span {
+      font-size: 23px;
+    }
   }
 }
 </style>
