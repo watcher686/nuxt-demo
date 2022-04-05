@@ -41,29 +41,23 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['@nuxtjs/axios'],
-  axios: {
-    proxy: true
-  },
-  proxy: {
-    '/api': {
-      target: 'https://www.fastmock.site/mock/cbb60912d7dec4eb07904711dc7914f5/dl',
-      changeOrigin: true,
-      pathRewrite: {
-        '^/api': '/'
-      }
-    }
-  },
+  // axios: {
+  //   proxy: true
+  // },
+  // proxy: {
+  //   '/api': {
+  //     target: 'https://www.fastmock.site/mock/cbb60912d7dec4eb07904711dc7914f5/dl',
+  //     changeOrigin: true,
+  //     pathRewrite: {
+  //       '^/api': '/'
+  //     }
+  //   }
+  // },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ['ant-design-vue'],
     babel: {
       plugins: [
-        ['import', {
-          libraryName: 'ant-design-vue',
-          libraryDirectory: 'lib' // 默认'lib'，也可视情况改为 'es'，通过查看组件可知这两个目录均存在。
-        },
-          "ant-design-vue"],
           [
             "component",
             {

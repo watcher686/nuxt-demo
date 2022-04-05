@@ -358,10 +358,10 @@
 export default {
   name: "HomePage",
   layout: "baseLayout",
-  async asyncData({ $axios }) {
-    const { data } = await $axios.$get("/api/list");
-    return { list: data };
-  },
+  // async asyncData({ $axios }) {
+  //   const { data } = await $axios.$get("/api/list");
+  //   return { list: data };
+  // },
   data() {
     return {
       title: "这是主页",
@@ -372,7 +372,7 @@ export default {
     return {
       title: this.title,
       meta: [
-        { hid: "description", name: "description", content: "这里是我的主页" },
+        { hid: "description", name: "description", content: "我的主页" },
       ],
     };
   },
