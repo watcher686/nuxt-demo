@@ -53,10 +53,7 @@
       <p class="text-center">
         <span class="titleUnderline">智能家居</span>
       </p>
-      <div
-        style="background-image: url(../static/images/homeBackgrounds/home_img_zhineng@3x.png);
-        "
-      >
+      <div>
         <div class="smartHomeMain">
           <div class="main">
             <div>
@@ -440,6 +437,7 @@ height: 9rem;
 .smartHome > div:nth-of-type(1) {
   background-size: 100% 100%;
   padding: 50px 0;
+  background-image: url(../static/images/homeBackgrounds/home_img_zhineng@3x.png);
 }
 .smartHomeMain {
   width: 100%;
