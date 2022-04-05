@@ -3,14 +3,14 @@
     <div v-show="totop">
       <div>
         <img
-          src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/float-icon-kf@3x.png"
+          src="../static/images/homeBackgrounds/float-icon-kf@3x.png"
           alt="客服"
         />
         <div>客服</div>
       </div>
       <div @click="backtop">
         <img
-          src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/float-icon-zd@3x.png"
+          src="../static/images/homeBackgrounds/float-icon-zd@3x.png"
           alt="置顶"
         />
         <div>置顶</div>

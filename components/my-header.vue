@@ -5,13 +5,13 @@
         <div id="logo" class="hidden-xs-only">
           <img
             class="img-size"
-            src="http://qn.yunxuanjia.com/yxjsqd/images/logo@3x.png"
+            src="../static/images/logo@3x.png"
             alt="logo"
           />
         </div>
         <div id="menu" class="hidden-sm-and-up">
           <img
-            src="http://qn.yunxuanjia.com/yxjsqd/images/hamBurger@3x.png"
+            src="../static/images/hamBurger@3x.png"
             alt=""
             @click="showMenu = !showMenu"
           />

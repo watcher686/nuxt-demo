@@ -2,7 +2,7 @@
     <div id="service">
       <img
           class="img-size"
-          src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/banner@3x.png"
+          src="../static/images/serviceBackgrounds/banner@3x.png"
         />
       <div class="main">
         <!-- 服务产品 -->
@@ -17,7 +17,7 @@
             <div style="width: 100%">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_img_yuanyin@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_img_yuanyin@3x.png"
                 alt=""
               />
             </div>
@@ -35,7 +35,7 @@
             <div class="xqimg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_img_xiangqing1@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_img_xiangqing1@3x.png"
                 alt=""
               />
             </div>
@@ -46,7 +46,7 @@
                   <div class="bzimg">
                     <img
                       class="img-size"
-                      src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/xiegan.png"
+                      src="../static/images/serviceBackgrounds/xiegan.png"
                       alt=""
                     />
                   </div>
@@ -65,7 +65,7 @@
                   <div class="bzimg">
                     <img
                       class="img-size"
-                      src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/xiegan.png"
+                      src="../static/images/serviceBackgrounds/xiegan.png"
                       alt=""
                     />
                   </div>
@@ -78,7 +78,7 @@
             <div class="xqimg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_img_xiangqing2@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_img_xiangqing2@3x.png"
                 alt=""
               />
             </div>
@@ -88,7 +88,7 @@
             <div class="xqimg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_img_xiangqing3@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_img_xiangqing3@3x.png"
                 alt=""
               />
             </div>
@@ -100,7 +100,7 @@
                   <div class="bzimg">
                     <img
                       class="img-size"
-                      src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/xiegan.png"
+                      src="../static/images/serviceBackgrounds/xiegan.png"
                       alt=""
                     />
                   </div>
@@ -124,7 +124,7 @@
                   <div class="bzimg">
                     <img
                       class="img-size"
-                      src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/xiegan.png"
+                      src="../static/images/serviceBackgrounds/xiegan.png"
                       alt=""
                     />
                   </div>
@@ -142,7 +142,7 @@
             <div class="xqimg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_img_xiangqing4@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_img_xiangqing4@3x.png"
                 alt=""
               />
             </div>
@@ -152,7 +152,7 @@
             <div class="xqimg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_img_xiangqing5@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_img_xiangqing5@3x.png"
                 alt=""
               />
             </div>
@@ -164,7 +164,7 @@
                   <div class="bzimg">
                     <img
                       class="img-size"
-                      src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/xiegan.png"
+                      src="../static/images/serviceBackgrounds/xiegan.png"
                       alt=""
                     />
                   </div>
@@ -186,7 +186,7 @@
                   <div class="bzimg">
                     <img
                       class="img-size"
-                      src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/xiegan.png"
+                      src="../static/images/serviceBackgrounds/xiegan.png"
                       alt=""
                     />
                   </div>
@@ -204,7 +204,7 @@
             <div class="xqimg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_img_xiangqing6@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_img_xiangqing6@3x.png"
                 alt=""
               />
             </div>
@@ -214,7 +214,7 @@
             <div class="xqimg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_img_xiangqing7@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_img_xiangqing7@3x.png"
                 alt=""
               />
             </div>
@@ -226,7 +226,7 @@
                   <div class="bzimg">
                     <img
                       class="img-size"
-                      src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/xiegan.png"
+                      src="../static/images/serviceBackgrounds/xiegan.png"
                       alt=""
                     />
                   </div>
@@ -252,7 +252,7 @@
             <div class="functionImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_icon_gongneng1@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_icon_gongneng1@3x.png"
                 alt=""
               />
             </div>
@@ -263,7 +263,7 @@
             <div class="functionImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_icon_gongneng2@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_icon_gongneng2@3x.png"
                 alt=""
               />
             </div>
@@ -274,7 +274,7 @@
             <div class="functionImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_icon_gongneng3@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_icon_gongneng3@3x.png"
                 alt=""
               />
             </div>
@@ -285,7 +285,7 @@
             <div class="functionImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_icon_gongneng4@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_icon_gongneng4@3x.png"
                 alt=""
               />
             </div>
@@ -296,7 +296,7 @@
             <div class="functionImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_icon_gongneng5@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_icon_gongneng5@3x.png"
                 alt=""
               />
             </div>
@@ -307,7 +307,7 @@
             <div class="functionImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/serviceBackgrounds/fuwu_icon_gongneng6@3x.png"
+                src="../static/images/serviceBackgrounds/fuwu_icon_gongneng6@3x.png"
                 alt=""
               />
             </div>

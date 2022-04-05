@@ -37,7 +37,7 @@
           <div>
             <img
               class="img-size"
-              src="http://qn.yunxuanjia.com/yxjsqd/images/wx.png"
+              src="../static/images/wx.png"
               alt="官方微信"
             />
           </div>

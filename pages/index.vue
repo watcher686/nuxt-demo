@@ -4,7 +4,7 @@
       <el-carousel-item v-for="item in 4" :key="item">
         <img
           class="img-size"
-          src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-banner@3x.png"
+          src="../static/images/homeBackgrounds/home-banner@3x.png"
           alt="云选家3D系列床垫"
         />
       </el-carousel-item>
@@ -13,7 +13,7 @@
       <el-carousel-item v-for="item in 4" :key="item">
         <img
           class="img-size"
-          src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home_banner@3x.png"
+          src="../static/images/homeBackgrounds/home_banner@3x.png"
           alt="云选家3D系列床垫"
         />
       </el-carousel-item>
@@ -26,7 +26,7 @@
           <img
             class="img-size"
             style="box-shadow: -15px 15px 0px #f4f1f4"
-            src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-jianjie-img@3x.png"
+            src="../static/images/homeBackgrounds/home-jianjie-img@3x.png"
             alt="云选家"
           />
         </div>
@@ -54,7 +54,7 @@
         <span class="titleUnderline">智能家居</span>
       </p>
       <div
-        style="background-image: url(http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home_img_zhineng@3x.png);
+        style="background-image: url(../static/images/homeBackgrounds/home_img_zhineng@3x.png);
         "
       >
         <div class="smartHomeMain">
@@ -70,7 +70,7 @@
               <div class="smartHomeRight">
                 <img
                   class="img-size"
-                  src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home_img_chanpin@3x.png"
+                  src="../static/images/homeBackgrounds/home_img_chanpin@3x.png"
                   alt="智能家居简介"
                 />
               </div>
@@ -101,21 +101,21 @@
             <div class="childrenSCustomImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home_img_changjing1@3x.png"
+                src="../static/images/homeBackgrounds/home_img_changjing1@3x.png"
                 alt="儿童定制预览图"
               />
             </div>
             <div class="childrenSCustomImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home_img_changjing2@3x.png"
+                src="../static/images/homeBackgrounds/home_img_changjing2@3x.png"
                 alt="儿童定制预览图"
               />
             </div>
             <div class="childrenSCustomImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home_img_changjing3@3x.png"
+                src="../static/images/homeBackgrounds/home_img_changjing3@3x.png"
                 alt="儿童定制预览图"
               />
             </div>
@@ -124,7 +124,7 @@
           <div style="width: 60%; margin-left: 20px">
             <img
               class="img-size"
-              src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home_img_ertong@3x.png"
+              src="../static/images/homeBackgrounds/home_img_ertong@3x.png"
               alt="儿童定制图"
             />
           </div>
@@ -144,7 +144,7 @@
               <div class="serverImg">
                 <img
                   class="img-size"
-                  src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-banyun-img@3x.png"
+                  src="../static/images/homeBackgrounds/home-banyun-img@3x.png"
                   alt="服务产品"
                 />
               </div>
@@ -163,7 +163,7 @@
               <div class="serverImg">
                 <img
                   class="img-size"
-                  src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-qinxi-img@3x.png"
+                  src="../static/images/homeBackgrounds/home-qinxi-img@3x.png"
                   alt="服务产品"
                 />
               </div>
@@ -172,7 +172,7 @@
               <div class="serverImg">
                 <img
                   class="img-size"
-                  src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-xiaodu-img@3x.png"
+                  src="../static/images/homeBackgrounds/home-xiaodu-img@3x.png"
                   alt="服务产品"
                 />
               </div>
@@ -189,7 +189,7 @@
               <div class="serverImg">
                 <img
                   class="img-size"
-                  src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-qxxd-img@3x.png"
+                  src="../static/images/homeBackgrounds/home-qxxd-img@3x.png"
                   alt="服务产品"
                 />
               </div>
@@ -219,7 +219,7 @@
       <div>
         <img
           class="img-size"
-          src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-cp-img@3x.png"
+          src="../static/images/homeBackgrounds/home-cp-img@3x.png"
           alt="3D系列"
         />
       </div>
@@ -236,7 +236,7 @@
             <div class="carouselImg">
               <img
                 class="img-size"
-                src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-dp-img1@3x.png"
+                src="../static/images/homeBackgrounds/home-dp-img1@3x.png"
                 alt="门店"
               />
               <div class="carouselTitle">xx分店</div>
@@ -255,7 +255,7 @@
               <div>
                 <img
                   class="img-size"
-                  src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-news-img@3x.png"
+                  src="../static/images/homeBackgrounds/home-news-img@3x.png"
                   alt="新闻资讯"
                 />
               </div>
@@ -271,7 +271,7 @@
               <div>
                 <img
                   class="img-size"
-                  src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-news-img@3x.png"
+                  src="../static/images/homeBackgrounds/home-news-img@3x.png"
                   alt="新闻资讯"
                 />
               </div>
@@ -287,7 +287,7 @@
               <div>
                 <img
                   class="img-size"
-                  src="http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-news-img@3x.png"
+                  src="../static/images/homeBackgrounds/home-news-img@3x.png"
                   alt="新闻资讯"
                 />
               </div>
@@ -590,7 +590,7 @@ height: 9rem;
 /* 加盟流程 */
 .joiningProcess {
   position: relative;
-  background: url("http://qn.yunxuanjia.com/yxjsqd/images/homeBackgrounds/home-liucheng-bg@3x.png")
+  background: url("../static/images/homeBackgrounds/home-liucheng-bg@3x.png")
     no-repeat center;
   background-size: 100% 100%;
   color: white;
