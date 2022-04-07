@@ -1,6 +1,6 @@
 <template>
   <div id="homePage">
-    <el-carousel id="carousel-pc">
+    <el-carousel class="show-pc">
       <el-carousel-item v-for="item in 4" :key="item">
         <img
           class="img-size"
@@ -9,7 +9,7 @@
         />
       </el-carousel-item>
     </el-carousel>
-    <el-carousel id="carousel-mobile" direction="vertical" :autoplay="false">
+    <el-carousel class="show-mobile" direction="vertical" :autoplay="false">
       <el-carousel-item v-for="item in 4" :key="item">
         <img
           class="img-size"
@@ -18,7 +18,6 @@
         />
       </el-carousel-item>
     </el-carousel>
-
     <div class="main">
       <!-- 企业简介-->
       <div class="companyProfiles flex modulemargin-top">
@@ -222,24 +221,29 @@
       </div>
     </div>
 
+    <!-- 店铺展示-->
     <div class="main">
       <!-- 店铺展示-->
       <div class="storeDisplay">
         <p class="titleMargin">
           <span class="titleUnderline">店铺展示</span>
         </p>
-        <el-carousel :interval="4000" type="card" height="200px">
-          <el-carousel-item v-for="item in 6" :key="item">
+        <el-carousel class="show-pc" :interval="4000" type="card" height="200px">
+          <el-carousel-item v-for="(item, index) in storeList" :key="index">
             <div class="carouselImg">
-              <img
-                class="img-size"
-                src="../static/images/homeBackgrounds/home-dp-img1@3x.png"
-                alt="门店"
-              />
-              <div class="carouselTitle">xx分店</div>
+              <img class="img-size" :src="item.images" alt="门店" />
+              <div class="carouselTitle">{{ item.name }}</div>
             </div>
           </el-carousel-item>
         </el-carousel>
+        <van-swipe class="show-mobile" :autoplay="3000" indicator-color="white">
+          <van-swipe-item v-for="(item, index) in storeList" :key="index">
+            <div class="carouselImg">
+              <img class="img-size" :src="item.images" alt="门店" />
+              <div class="carouselTitle">{{ item.name }}</div>
+            </div>
+          </van-swipe-item>
+        </van-swipe>
       </div>
       <!-- 新闻资讯-->
       <div class="news modulemargin-top">
@@ -337,8 +341,8 @@
       </div>
     </div>
 
-    <div class="main">
-      <!-- 加盟申请-->
+    <!-- 加盟申请-->
+    <!-- <div class="main">
       <div class="joinApplication">
         <p class="titleMargin">
           <span class="titleUnderline">加盟申请</span>
@@ -347,21 +351,23 @@
           <div class="boxshadow"></div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
 export default {
   name: "HomePage",
   layout: "baseLayout",
-  // async asyncData({ $axios }) {
-  //   const { data } = await $axios.$get("/api/list");
-  //   return { list: data };
-  // },
+  async asyncData({ $axios }) {
+    const { data } = await $axios.$get(
+      "https://www.fastmock.site/mock/cbb60912d7dec4eb07904711dc7914f5/dl/storeList"
+    );
+    return { storeList: data.storeList };
+  },
   data() {
     return {
       title: "这是主页",
-      list: [],
+      storeList: [],
     };
   },
   head() {
@@ -375,16 +381,16 @@ export default {
 </script>
 <style lang="scss">
 #homePage {
-  #carousel-pc .el-carousel__container {
+  .show-pc>.el-carousel__container {
     height: 6rem;
   }
-  #carousel-pc {
+  .show-pc {
     display: block;
   }
-  #carousel-mobile .el-carousel__container {
+  .show-mobile>.el-carousel__container {
     height: 9rem;
   }
-  #carousel-mobile {
+  .show-mobile {
     display: none;
   }
   .banner > img:nth-of-type(2) {
@@ -529,9 +535,6 @@ export default {
     border-radius: 5px;
   }
   /* 轮播 */
-  .storeDisplay > div:nth-of-type(2) {
-    display: none;
-  }
   .carouselImg {
     position: relative;
     width: 100%;
@@ -589,7 +592,6 @@ export default {
     color: white;
     width: 100%;
     padding: 50px 0px;
-    margin: 30px 0px;
   }
   .joiningTitle {
     width: 100%;
@@ -659,10 +661,10 @@ export default {
   /* 多媒体查询 */
   /* 手机屏幕 */
   @media screen and (max-width: 768px) {
-    #carousel-pc {
+    .show-pc {
       display: none;
     }
-    #carousel-mobile {
+    .show-mobile {
       display: block;
     }
     .banner > img:nth-of-type(1) {
@@ -733,12 +735,12 @@ export default {
       padding: 0px 10px;
     }
     /* 轮播 */
-    .storeDisplay > div:nth-of-type(1) {
-      display: none;
-    }
-    .storeDisplay > div:nth-of-type(2) {
-      display: block;
-    }
+    // .storeDisplay > div:nth-of-type(1) {
+    //   display: none;
+    // }
+    // .storeDisplay > div:nth-of-type(2) {
+    //   display: block;
+    // }
     /* 新闻 */
     .newsL {
       width: 100%;

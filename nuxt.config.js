@@ -29,7 +29,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/element-ui',
-    '@/plugins/antd-ui'
+    '@/plugins/antd-ui',
+    '@/plugins/vant-ui'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -56,21 +57,29 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    // 添加这个是关键，添加后babel才会处理依赖包vant里面的代码
+    transpile: [/vant.*?less/],
     babel: {
       plugins: [
-          [
-            "component",
-            {
-              "libraryName": "element-ui",
-              "styleLibraryName": "theme-chalk"
-            }
-          ]
+        [
+          "component",
+          {
+            "libraryName": "element-ui",
+            "styleLibraryName": "theme-chalk"
+          }
+        ],
+        ['import', {
+          "libraryName": 'vant',
+          "style": (name) => {
+            return `${name}/style/less.js`
+          }
+        }, 'vant']
       ]
     },
     postcss: [
       require('postcss-px2rem')({
         remUnit: 75
       })
-   ],
+    ],
   }
 }
