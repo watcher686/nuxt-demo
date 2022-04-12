@@ -4,27 +4,21 @@
       <div>
         <img
           class="img-size"
-          src="../static/images/aboutUsBackgrounds/personalcenter_img_toutu1@3x.png"
+          src="/images/aboutUsBackgrounds/personalcenter_img_toutu1@3x.png"
         />
       </div>
       <div>
         <div>
           <img
             class="img-size"
-            src="../static/images/aboutUsBackgrounds/personalcenter_img_toutu2@3x.png"
+            src="/images/aboutUsBackgrounds/personalcenter_img_toutu2@3x.png"
             alt=""
           />
         </div>
       </div>
     </div>
 
-    <div
-      style="
-        background: url('../static/images/aboutUsBackgrounds/personalcenter_bg_tupian@3x.png')
-          no-repeat;
-        background-size: 100% 100%;
-      "
-    >
+    <div class="about-bg">
       <div class="main1">
         <!-- 关于我们 -->
         <div class="about">
@@ -33,7 +27,7 @@
             <div>
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_biaoti1@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_biaoti1@3x.png"
                 alt=""
               />
             </div>
@@ -56,7 +50,7 @@
               <div>
                 <img
                   class="img-size"
-                  src="../static/images/aboutUsBackgrounds/personalcenter_img_biaoti2@3x.png"
+                  src="/images/aboutUsBackgrounds/personalcenter_img_biaoti2@3x.png"
                   alt=""
                 />
               </div>
@@ -67,7 +61,7 @@
             <div class="corporateCultureImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_wenhua1@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_wenhua1@3x.png"
                 alt=""
               />
             </div>
@@ -86,7 +80,7 @@
             <div class="corporateCultureImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_wenhua2@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_wenhua2@3x.png"
                 alt=""
               />
             </div>
@@ -96,7 +90,7 @@
             <div class="corporateCultureImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_wenhua3@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_wenhua3@3x.png"
                 alt=""
               />
             </div>
@@ -115,7 +109,7 @@
             <div class="corporateCultureImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_wenhua4@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_wenhua4@3x.png"
                 alt=""
               />
             </div>
@@ -125,7 +119,7 @@
             <div class="corporateCultureImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_wenhua5@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_wenhua5@3x.png"
                 alt=""
               />
             </div>
@@ -144,7 +138,7 @@
             <div class="corporateCultureImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_wenhua6@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_wenhua6@3x.png"
                 alt=""
               />
             </div>
@@ -161,7 +155,7 @@
           <div>
             <img
               class="img-size"
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_biaoti1@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_biaoti1@3x.png"
               alt=""
             />
           </div>
@@ -171,7 +165,7 @@
             <div class="enterpriseDevelopmentImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
                 alt=""
               />
             </div>
@@ -184,7 +178,7 @@
             <div class="enterpriseDevelopmentImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
                 alt=""
               />
             </div>
@@ -196,7 +190,7 @@
             <div class="enterpriseDevelopmentImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
                 alt=""
               />
             </div>
@@ -208,7 +202,7 @@
             <div class="enterpriseDevelopmentImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
                 alt=""
               />
             </div>
@@ -218,7 +212,7 @@
             <div class="enterpriseDevelopmentImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
                 alt=""
               />
             </div>
@@ -230,7 +224,7 @@
             <div class="enterpriseDevelopmentImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
                 alt=""
               />
             </div>
@@ -242,7 +236,7 @@
             <div class="enterpriseDevelopmentImg">
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_lishi@3x.png"
                 alt=""
               />
             </div>
@@ -260,7 +254,7 @@
             <div>
               <img
                 class="img-size"
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_biaoti2@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_biaoti2@3x.png"
                 alt=""
               />
             </div>
@@ -270,7 +264,7 @@
           <div>
             <img
               class="flex align-end"
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_rongyv1@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_rongyv1@3x.png"
               alt=""
             />
             <div class="text-center">
@@ -281,7 +275,7 @@
           <div>
             <img
               class="flex align-end"
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_rongyv2@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_rongyv2@3x.png"
               alt=""
             />
             <div class="text-center">
@@ -298,7 +292,7 @@
           <div>
             <img
               class="img-size"
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_biaoti1@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_biaoti1@3x.png"
               alt=""
             />
           </div>
@@ -306,7 +300,7 @@
         <div class="productsIntroduce flex align-center flex-wrap">
           <img
             class="img-size"
-            src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin1@3x.png"
+            src="/images/aboutUsBackgrounds/personalcenter_img_chanpin1@3x.png"
             alt=""
           />
           <div>
@@ -335,7 +329,7 @@
           </div>
           <img
             class="img-size"
-            src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin2@3x.png"
+            src="/images/aboutUsBackgrounds/personalcenter_img_chanpin2@3x.png"
             alt=""
           />
         </div>
@@ -343,7 +337,7 @@
         <div class="productsIntroduce flex align-center flex-wrap">
           <img
             class="img-size"
-            src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin3@3x.png"
+            src="/images/aboutUsBackgrounds/personalcenter_img_chanpin3@3x.png"
             alt=""
           />
           <div>
@@ -364,7 +358,7 @@
           </div>
           <img
             class="img-size"
-            src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin4@3x.png"
+            src="/images/aboutUsBackgrounds/personalcenter_img_chanpin4@3x.png"
             alt=""
           />
         </div>
@@ -373,13 +367,13 @@
           <div class="flex align-center">
             <div class="label flex align-center">
               <img
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
                 alt=""
               />
               <div>爽</div>
             </div>
             <img
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
               alt=""
             />
             <div class="content flex align-center">
@@ -389,13 +383,13 @@
           <div class="flex align-center">
             <div class="label flex align-center">
               <img
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
                 alt=""
               />
               <div>韧</div>
             </div>
             <img
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
               alt=""
             />
             <div class="content flex align-center">
@@ -405,13 +399,13 @@
           <div class="flex align-center">
             <div class="label flex align-center">
               <img
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
                 alt=""
               />
               <div>透</div>
             </div>
             <img
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
               alt=""
             />
             <div class="content flex align-center">
@@ -421,13 +415,13 @@
           <div class="flex align-center">
             <div class="label flex align-center">
               <img
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
                 alt=""
               />
               <div>托</div>
             </div>
             <img
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
               alt=""
             />
             <div class="content flex align-center">
@@ -438,13 +432,13 @@
           <div class="flex align-center">
             <div class="label flex align-center">
               <img
-                src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
+                src="/images/aboutUsBackgrounds/personalcenter_img_chanpin6@3x.png"
                 alt=""
               />
               <div>护</div>
             </div>
             <img
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_chanpin5@3x.png"
               alt=""
             />
             <div class="content flex align-center">0甲醛0重金属0异味</div>
@@ -460,7 +454,7 @@
           <div>
             <img
               class="img-size"
-              src="../static/images/aboutUsBackgrounds/personalcenter_img_biaoti1@3x.png"
+              src="/images/aboutUsBackgrounds/personalcenter_img_biaoti1@3x.png"
               alt=""
             />
           </div>
@@ -527,6 +521,11 @@ export default {
   z-index: 1;
 }
 /* 关于我们 */
+.about-bg {
+  background: url("/images/aboutUsBackgrounds/personalcenter_bg_tupian@3x.png")
+    no-repeat;
+  background-size: 100% 100%;
+}
 .about > p {
   text-indent: 2em;
   padding: 0 0 150px 150px;
@@ -663,7 +662,7 @@ export default {
   margin: 10px auto;
 }
 .contactUs > div:nth-of-type(2) {
-  background: url("../static/images/aboutUsBackgrounds/personalcenter_bg_lianxi@3x.png")
+  background: url("/images/aboutUsBackgrounds/personalcenter_bg_lianxi@3x.png")
     no-repeat;
   background-size: cover;
   height: 400px;

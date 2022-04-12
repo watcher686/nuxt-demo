@@ -3,10 +3,10 @@
     <div v-show="totop">
       <div>
         <el-popover placement="left-start" width="210" trigger="hover">
-          <img src="../static/images/wx.png" alt="微信">
+          <img src="/images/wx.png" alt="微信">
           <div slot="reference">
             <img
-              src="../static/images/homeBackgrounds/float-icon-kf@3x.png"
+              src="/images/homeBackgrounds/float-icon-kf@3x.png"
               alt="客服"
             />
             <div>客服</div>
@@ -15,7 +15,7 @@
       </div>
       <div @click="backtop">
         <img
-          src="../static/images/homeBackgrounds/float-icon-zd@3x.png"
+          src="/images/homeBackgrounds/float-icon-zd@3x.png"
           alt="置顶"
         />
         <div>置顶</div>

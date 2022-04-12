@@ -4,12 +4,12 @@
     <div class="banner">
       <img
         class="img-size"
-        src="../static/images/joiningBackgrounds/zhaoshang_img_banner.png"
+        src="/images/joiningBackgrounds/zhaoshang_img_banner.png"
         alt="何政军，代言人"
       />
       <img
         class="img-size"
-        src="../static/images/joiningBackgrounds/zhaoshang_img_banner@3x.png"
+        src="/images/joiningBackgrounds/zhaoshang_img_banner@3x.png"
         alt="何政军，代言人"
       />
     </div>
@@ -26,7 +26,7 @@
       <div class="joinImg">
         <img
           class="img-size"
-          src="../static/images/joiningBackgrounds/zhaosahng_img_jiaru@3x.png"
+          src="/images/joiningBackgrounds/zhaosahng_img_jiaru@3x.png"
           alt="全新家装新零售模式"
         />
       </div>
@@ -47,7 +47,7 @@
       <div class="joinImg">
         <img
           class="img-size"
-          src="../static/images/joiningBackgrounds/zhaoshang_img_wenti.png"
+          src="/images/joiningBackgrounds/zhaoshang_img_wenti.png"
           alt="问题问题问题问题问题问题问题"
         />
         <div class="text-center">你是不是正在解决这些问题？</div>
@@ -75,7 +75,7 @@
       </div>
       <img
         class="img-size"
-        src="../static/images/joiningBackgrounds/zhaosahng_img_daan@3x.png"
+        src="/images/joiningBackgrounds/zhaosahng_img_daan@3x.png"
         alt="未来五年最领先的商业模式
 S2B2C+O2O双轨模式。
 整合分配资源渠道，
@@ -84,7 +84,7 @@ S2B2C+O2O双轨模式。
       <div class="joinImg">
         <img
           class="img-size"
-          src="../static/images/joiningBackgrounds/lct.png"
+          src="/images/joiningBackgrounds/lct.png"
           alt="双轨模式"
         />
       </div>
@@ -93,12 +93,12 @@ S2B2C+O2O双轨模式。
     <div id="sharingPlatform" class="title">
       <img
         class="img-size"
-        src="../static/images/joiningBackgrounds/zhaoshang_img_daan2.png"
+        src="/images/joiningBackgrounds/zhaoshang_img_daan2.png"
         alt=""
       />
       <img
         class="img-size"
-        src="../static/images/joiningBackgrounds/zhaosahng_img_gongxiang@3x.png"
+        src="/images/joiningBackgrounds/zhaosahng_img_gongxiang@3x.png"
         alt=""
       />
     </div>
@@ -118,7 +118,7 @@ S2B2C+O2O双轨模式。
           <div class="text-center">
             <img
               class="advantageImg"
-              src="../static/images/joiningBackgrounds/zhaoshang_icon_youshi1.png"
+              src="/images/joiningBackgrounds/zhaoshang_icon_youshi1.png"
               alt=""
             />
           </div>
@@ -139,7 +139,7 @@ S2B2C+O2O双轨模式。
           <div class="text-center">
             <img
               class="advantageImg"
-              src="../static/images/joiningBackgrounds/zhaoshang_icon_youshi2.png"
+              src="/images/joiningBackgrounds/zhaoshang_icon_youshi2.png"
               alt=""
             />
           </div>
@@ -159,7 +159,7 @@ S2B2C+O2O双轨模式。
           <div class="text-center">
             <img
               class="advantageImg"
-              src="../static/images/joiningBackgrounds/zhaoshang_icon_youshi3.png"
+              src="/images/joiningBackgrounds/zhaoshang_icon_youshi3.png"
               alt=""
             />
           </div>
@@ -180,7 +180,7 @@ S2B2C+O2O双轨模式。
           <div class="text-center">
             <img
               class="advantageImg"
-              src="../static/images/joiningBackgrounds/zhaoshang_icon_youshi4.png"
+              src="/images/joiningBackgrounds/zhaoshang_icon_youshi4.png"
               alt=""
             />
           </div>
@@ -203,7 +203,7 @@ S2B2C+O2O双轨模式。
           <div class="text-center">
             <img
               class="advantageImg"
-              src="../static/images/joiningBackgrounds/zhaoshang_icon_youshi5.png"
+              src="/images/joiningBackgrounds/zhaoshang_icon_youshi5.png"
               alt=""
             />
           </div>
@@ -224,7 +224,7 @@ S2B2C+O2O双轨模式。
           <div class="text-center">
             <img
               class="advantageImg"
-              src="../static/images/joiningBackgrounds/zhaoshang_icon_youshi6.png"
+              src="/images/joiningBackgrounds/zhaoshang_icon_youshi6.png"
               alt=""
             />
           </div>
@@ -244,12 +244,12 @@ S2B2C+O2O双轨模式。
 
       <img
         class="img-size"
-        src="../static/images/joiningBackgrounds/zhaoshang_img_youshi.png"
+        src="/images/joiningBackgrounds/zhaoshang_img_youshi.png"
         alt=""
       />
       <img
         class="img-size"
-        src="../static/images/joiningBackgrounds/zhaosahng_img_banner2@3x.png"
+        src="/images/joiningBackgrounds/zhaosahng_img_banner2@3x.png"
         alt=""
       />
     </div>
@@ -268,7 +268,7 @@ S2B2C+O2O双轨模式。
       <div class="joinImg">
         <img
           class="img-size"
-          src="../static/images/joiningBackgrounds/promise.png"
+          src="/images/joiningBackgrounds/promise.png"
           alt="无高额加盟费，付款，无高运营设备费，无需担心资金安全，无需担心售后"
         />
       </div>
@@ -285,7 +285,7 @@ S2B2C+O2O双轨模式。
       <div class="joinImg">
         <img
           class="img-size"
-          src="../static/images/joiningBackgrounds/zhaoshang_img_tigong1.png"
+          src="/images/joiningBackgrounds/zhaoshang_img_tigong1.png"
           alt="AI智能整装设计软件"
         />
         <div>
@@ -296,7 +296,7 @@ S2B2C+O2O双轨模式。
       <div class="joinImg">
         <img
           class="img-size"
-          src="../static/images/joiningBackgrounds/zhaoshang_img_tigon2.png"
+          src="/images/joiningBackgrounds/zhaoshang_img_tigon2.png"
           alt="效果图，即时预览3D效果"
         />
         <div class="flex justify-end joinImgAb">
@@ -309,7 +309,7 @@ S2B2C+O2O双轨模式。
       <div class="joinImg">
         <img
           class="img-size"
-          src="../static/images/joiningBackgrounds/zhaoshang_img_tigon3.png"
+          src="/images/joiningBackgrounds/zhaoshang_img_tigon3.png"
           alt="特色图像化"
         />
         <div>
@@ -320,7 +320,7 @@ S2B2C+O2O双轨模式。
       <div class="joinImg">
         <img
           class="img-size"
-          src="../static/images/joiningBackgrounds/zhaoshang_img_tigong4.png"
+          src="/images/joiningBackgrounds/zhaoshang_img_tigong4.png"
           alt="超大型稳定整装供应链"
         />
         <div class="title_center">
@@ -370,7 +370,7 @@ export default {
   }
   /* 标题2 */
   .title2 {
-    background: url("../static/images/joiningBackgrounds/zhaoshang_bg_wenti.png")
+    background: url("/images/joiningBackgrounds/zhaoshang_bg_wenti.png")
       no-repeat center;
     background-size: 100% 100%;
     height: 400px;
@@ -385,7 +385,7 @@ export default {
   }
   /* 标题3 */
   .title3 {
-    background: url("../static/images/joiningBackgrounds/zhaoshang_bg_daan.png")
+    background: url("/images/joiningBackgrounds/zhaoshang_bg_daan.png")
       no-repeat center;
     background-size: 100% 100%;
     height: 800px;
@@ -525,7 +525,7 @@ export default {
       padding: 20px 0px;
     }
     .title2 {
-      background: url("../static/images/joiningBackgrounds/zhaoshang_bg_wenti.png")
+      background: url("/images/joiningBackgrounds/zhaoshang_bg_wenti.png")
         no-repeat center;
       height: 200px;
     }

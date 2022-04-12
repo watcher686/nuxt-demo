@@ -5,20 +5,20 @@
         <div id="logo" class="hidden-xs-only">
           <img
             class="img-size"
-            src="../static/images/logo@3x.png"
+            src="/images/logo@3x.png"
             alt="logo"
           />
         </div>
         <div id="menu" class="hidden-sm-and-up">
           <img
-            src="../static/images/hamBurger@3x.png"
+            src="/images/hamBurger@3x.png"
             alt=""
             @click="showMenu = !showMenu"
           />
           <transition name="el-fade-in-linear">
             <img
               v-show="showMenu"
-              src="http://qn.yunxuanjia.com//static/home/home-icon-gongneng-shanchu@3x.png"
+              src="/images/homeBackgrounds/home-icon-gongneng-shanchu@3x.png"
               alt=""
               @click="showMenu = !showMenu"
             />
@@ -30,7 +30,7 @@
           <nuxt-link v-if="item.default" :to="item.path">{{
             item.name
           }}</nuxt-link>
-          <a v-else :href="item.path">{{ item.name }}</a>
+          <a v-else :href="item.path" target="_blank">{{ item.name }}</a>
         </li>
       </ul>
       <transition name="el-fade-in-linear">
@@ -39,7 +39,7 @@
             <nuxt-link v-if="item.default" :to="item.path">{{
               item.name
             }}</nuxt-link>
-            <a v-else :href="item.path">{{ item.name }}</a>
+            <a v-else :href="item.path" target="_blank">{{ item.name }}</a>
           </li>
         </ul>
       </transition>
@@ -71,6 +71,11 @@ export default {
           default: false,
           path: "https://nuxtjs.org",
           name: "官网",
+        },
+        {
+          default: true,
+          path: "/smartHome",
+          name: "智能家居",
         },
         {
           default: true,

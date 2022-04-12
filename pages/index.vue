@@ -4,7 +4,7 @@
       <el-carousel-item v-for="item in 4" :key="item">
         <img
           class="img-size"
-          src="../static/images/homeBackgrounds/home-banner@3x.png"
+          src="/images/homeBackgrounds/home-banner@3x.png"
           alt="云选家3D系列床垫"
         />
       </el-carousel-item>
@@ -13,7 +13,7 @@
       <el-carousel-item v-for="item in 4" :key="item">
         <img
           class="img-size"
-          src="../static/images/homeBackgrounds/home_banner@3x.png"
+          src="/images/homeBackgrounds/home_banner@3x.png"
           alt="云选家3D系列床垫"
         />
       </el-carousel-item>
@@ -25,7 +25,7 @@
           <img
             class="img-size"
             style="box-shadow: -15px 15px 0px #f4f1f4"
-            src="../static/images/homeBackgrounds/home-jianjie-img@3x.png"
+            src="/images/homeBackgrounds/home-jianjie-img@3x.png"
             alt="云选家"
           />
         </div>
@@ -66,7 +66,7 @@
               <div class="smartHomeRight">
                 <img
                   class="img-size"
-                  src="../static/images/homeBackgrounds/home_img_chanpin@3x.png"
+                  src="/images/homeBackgrounds/home_img_chanpin@3x.png"
                   alt="智能家居简介"
                 />
               </div>
@@ -97,21 +97,21 @@
             <div class="childrenSCustomImg">
               <img
                 class="img-size"
-                src="../static/images/homeBackgrounds/home_img_changjing1@3x.png"
+                src="/images/homeBackgrounds/home_img_changjing1@3x.png"
                 alt="儿童定制预览图"
               />
             </div>
             <div class="childrenSCustomImg">
               <img
                 class="img-size"
-                src="../static/images/homeBackgrounds/home_img_changjing2@3x.png"
+                src="/images/homeBackgrounds/home_img_changjing2@3x.png"
                 alt="儿童定制预览图"
               />
             </div>
             <div class="childrenSCustomImg">
               <img
                 class="img-size"
-                src="../static/images/homeBackgrounds/home_img_changjing3@3x.png"
+                src="/images/homeBackgrounds/home_img_changjing3@3x.png"
                 alt="儿童定制预览图"
               />
             </div>
@@ -120,7 +120,7 @@
           <div style="width: 60%; margin-left: 20px">
             <img
               class="img-size"
-              src="../static/images/homeBackgrounds/home_img_ertong@3x.png"
+              src="/images/homeBackgrounds/home_img_ertong@3x.png"
               alt="儿童定制图"
             />
           </div>
@@ -140,7 +140,7 @@
               <div class="serverImg">
                 <img
                   class="img-size"
-                  src="../static/images/homeBackgrounds/home-banyun-img@3x.png"
+                  src="/images/homeBackgrounds/home-banyun-img@3x.png"
                   alt="服务产品"
                 />
               </div>
@@ -159,7 +159,7 @@
               <div class="serverImg">
                 <img
                   class="img-size"
-                  src="../static/images/homeBackgrounds/home-qinxi-img@3x.png"
+                  src="/images/homeBackgrounds/home-qinxi-img@3x.png"
                   alt="服务产品"
                 />
               </div>
@@ -168,7 +168,7 @@
               <div class="serverImg">
                 <img
                   class="img-size"
-                  src="../static/images/homeBackgrounds/home-xiaodu-img@3x.png"
+                  src="/images/homeBackgrounds/home-xiaodu-img@3x.png"
                   alt="服务产品"
                 />
               </div>
@@ -185,7 +185,7 @@
               <div class="serverImg">
                 <img
                   class="img-size"
-                  src="../static/images/homeBackgrounds/home-qxxd-img@3x.png"
+                  src="/images/homeBackgrounds/home-qxxd-img@3x.png"
                   alt="服务产品"
                 />
               </div>
@@ -215,7 +215,7 @@
       <div>
         <img
           class="img-size"
-          src="../static/images/homeBackgrounds/home-cp-img@3x.png"
+          src="/images/homeBackgrounds/home-cp-img@3x.png"
           alt="3D系列"
         />
       </div>
@@ -256,7 +256,7 @@
               <div>
                 <img
                   class="img-size"
-                  src="../static/images/homeBackgrounds/home-news-img@3x.png"
+                  src="/images/homeBackgrounds/home-news-img@3x.png"
                   alt="新闻资讯"
                 />
               </div>
@@ -272,7 +272,7 @@
               <div>
                 <img
                   class="img-size"
-                  src="../static/images/homeBackgrounds/home-news-img@3x.png"
+                  src="/images/homeBackgrounds/home-news-img@3x.png"
                   alt="新闻资讯"
                 />
               </div>
@@ -288,7 +288,7 @@
               <div>
                 <img
                   class="img-size"
-                  src="../static/images/homeBackgrounds/home-news-img@3x.png"
+                  src="/images/homeBackgrounds/home-news-img@3x.png"
                   alt="新闻资讯"
                 />
               </div>
@@ -337,7 +337,7 @@
           </div>
         </div>
 
-        <div class="learnMore text-center marginauto">了解详情></div>
+        <div class="learnMore text-center marginauto" @click="jumpJoinApplication">了解详情></div>
       </div>
     </div>
 
@@ -376,7 +376,13 @@ export default {
       meta: [{ hid: "description", name: "description", content: "我的主页" }],
     };
   },
-  methods: {},
+  methods: {
+    jumpJoinApplication(){
+      this.$router.push({
+        path:'/merchantsToJoin'
+      })
+    }
+  },
 };
 </script>
 <style lang="scss">
@@ -438,7 +444,7 @@ export default {
   .smartHome > div:nth-of-type(1) {
     background-size: 100% 100%;
     padding: 50px 0;
-    background-image: url(../static/images/homeBackgrounds/home_img_zhineng@3x.png);
+    background-image: url(/images/homeBackgrounds/home_img_zhineng@3x.png);
   }
   .smartHomeMain {
     width: 100%;
@@ -586,7 +592,7 @@ export default {
   /* 加盟流程 */
   .joiningProcess {
     position: relative;
-    background: url("../static/images/homeBackgrounds/home-liucheng-bg@3x.png")
+    background: url("/images/homeBackgrounds/home-liucheng-bg@3x.png")
       no-repeat center;
     background-size: 100% 100%;
     color: white;
